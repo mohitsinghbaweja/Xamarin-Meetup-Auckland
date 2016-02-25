@@ -1,0 +1,9 @@
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/bin/Debug/Xamillionaire.Core.dll.mdb
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/bin/Debug/Xamillionaire.Core.dll
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/obj/Debug/Xamillionaire.Core.dll
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/obj/Debug/Xamillionaire.Core.dll.mdb
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/bin/Debug/System.Net.Http.dll
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/bin/Debug/System.Net.Http.Primitives.dll
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/bin/Debug/System.Net.Http.Extensions.dll
+/Users/mohitsinghbaweja/Xamillionaire/Xamillionaire.Core/bin/Debug/Newtonsoft.Json.dll

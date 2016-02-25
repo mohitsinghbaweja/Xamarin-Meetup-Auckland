@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <AdditionalAndroidResourcePaths>
+    <AdditionalAndroidResourcePath>/Users/mohitsinghbaweja/.local/share/Xamarin/Android.Support.v13/21.0.0-rc1-support-v13/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/mohitsinghbaweja/.local/share/Xamarin/Android.Wearable/1.0.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/mohitsinghbaweja/.local/share/Xamarin/Android.Wearable/5.0.77/embedded</AdditionalAndroidResourcePath>
+  </AdditionalAndroidResourcePaths>
+  <AdditionalJavaLibraryReferences>
+    <AdditionalJavaLibraryReference>/Users/mohitsinghbaweja/.local/share/Xamarin/Android.Support.v13/21.0.0-rc1-support-v13/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/mohitsinghbaweja/.local/share/Xamarin/Android.Support.v13/21.0.0-rc1-support-v13/embedded/libs/internal_impl-21.0.0-rc1.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/mohitsinghbaweja/.local/share/Xamarin/Android.Support.v13/20/content/support/v4/android-support-v4.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/mohitsinghbaweja/.local/share/Xamarin/Android.Wearable/1.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/mohitsinghbaweja/.local/share/Xamarin/Android.Wearable/5.0.77/embedded/classes.jar</AdditionalJavaLibraryReference>
+  </AdditionalJavaLibraryReferences>
+  <AdditionalNativeLibraryReferences />
+</Paths>

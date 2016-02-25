@@ -1,0 +1,15 @@
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/ibtool/Interface.storyboardc/Interface-glance.plist
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/ibtool/Interface.storyboardc/Interface-notification.plist
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/ibtool/Interface.storyboardc/Interface.plist
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons86x86@2x.png
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons98x98@2x.png
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/optimized/
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/bin/iPhoneSimulator/Debug/Xamillionaire.Core.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/bin/iPhoneSimulator/Debug/Xamillionaire.Core.dll.mdb
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/bin/iPhoneSimulator/Debug/System.Net.Http.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll

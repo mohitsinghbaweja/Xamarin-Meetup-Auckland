@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamillionaire.Core", "Xamillionaire.Core\Xamillionaire.Core.csproj", "{D4914D33-CDA3-435E-9C54-3916EE40A558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamillionaire.Droid", "Xamillionaire.Droid\Xamillionaire.Droid.csproj", "{08E9234B-90B7-45BF-9296-35AA214A2D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamillionaire.Droid.Wear", "Xamillionaire.Droid.Wear\Xamillionaire.Droid.Wear.csproj", "{55531A82-6D44-4135-8B06-A682C574D11A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08E9234B-90B7-45BF-9296-35AA214A2D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E9234B-90B7-45BF-9296-35AA214A2D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E9234B-90B7-45BF-9296-35AA214A2D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E9234B-90B7-45BF-9296-35AA214A2D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55531A82-6D44-4135-8B06-A682C574D11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55531A82-6D44-4135-8B06-A682C574D11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55531A82-6D44-4135-8B06-A682C574D11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55531A82-6D44-4135-8B06-A682C574D11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4914D33-CDA3-435E-9C54-3916EE40A558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4914D33-CDA3-435E-9C54-3916EE40A558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4914D33-CDA3-435E-9C54-3916EE40A558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4914D33-CDA3-435E-9C54-3916EE40A558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

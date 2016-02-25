@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="XamarinOnYourWrist/XamarinOnYourWrist.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinOnYourWrist.WatchKitExtension/VoteInterfaceController.cs">
+    <Files>
+      <File FileName="XamarinOnYourWrist.WatchKitExtension/VoteInterfaceController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,9 @@
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/obj/iPhoneSimulator/Debug/optimized/
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/bin/iPhoneSimulator/Debug/Xamillionaire.Core.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/bin/iPhoneSimulator/Debug/Xamillionaire.Core.dll.mdb
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/bin/iPhoneSimulator/Debug/XamarinOnYourWristWatchKitExtension.dll.mdb
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/bin/iPhoneSimulator/Debug/XamarinOnYourWristWatchKitExtension.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/obj/iPhoneSimulator/Debug/XamarinOnYourWristWatchKitExtension.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitExtension/obj/iPhoneSimulator/Debug/XamarinOnYourWristWatchKitExtension.dll.mdb

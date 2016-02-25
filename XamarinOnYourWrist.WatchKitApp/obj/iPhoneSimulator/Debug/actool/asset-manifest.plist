@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons86x86@2x.png</string>
+			<string>/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons98x98@2x.png</string>
+			<string>/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car</string>
+			<string>/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist.WatchKitApp/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
+		</array>
+	</dict>
+</dict>
+</plist>

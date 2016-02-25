@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <imageView height="68.5" alignment="left" image="bg_main" contentMode="scaleAspectFill" id="vxi-da-uWI"/>
+                        <label width="136" height="30.5" alignment="left" verticalAlignment="center" text="Tap to vote" textAlignment="center" id="46T-1H-Iat"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Vote" id="PT9-qy-oZo">
+                            <connections>
+                                <action selector="Action" destination="AgC-eL-Hgc" id="O6V-Sl-Psg"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="Button" destination="PT9-qy-oZo" id="WHA-XV-6hR"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-215" y="-83.25"/>
+        </scene>
+        <!--Alert-->
+        <scene sceneID="PRq-db-qUe">
+            <objects>
+                <controller identifier="Alert" id="37H-3x-3wQ" customClass="AlertInterfaceController">
+                    <items>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="OK" id="Ll3-iZ-OgH">
+                            <connections>
+                                <action selector="ButtonPressed" destination="37H-3x-3wQ" id="i3t-gG-p3g"/>
+                            </connections>
+                        </button>
+                        <label width="1" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" numberOfLines="0" id="0WT-V9-VKj"/>
+                    </items>
+                    <connections>
+                        <outlet property="Label" destination="0WT-V9-VKj" id="uGs-zi-rp9"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-4" y="2.5"/>
+        </scene>
+        <!--VoteInterfaceController-->
+        <scene sceneID="dxI-iu-Bi9">
+            <objects>
+                <controller identifier="VoteInterfaceController" id="Gbk-sX-gvg" customClass="VoteInterfaceController">
+                    <items>
+                        <label width="136" alignment="left" verticalAlignment="center" text="Vote!" textAlignment="center" id="zaZ-Pm-IRI"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Yes" id="Nsa-tD-zhn">
+                            <color key="backgroundColor" red="0.0" green="0.81288548519736847" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="VoteYes" destination="Gbk-sX-gvg" id="eTW-wh-3Y8"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="No" id="uXL-rL-MLe">
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="VoteNo" destination="Gbk-sX-gvg" id="iH3-0r-MnK"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-210" y="273"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="215" y="329"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="303" y="45"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="79"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{EE2C853D-36AF-4FDB-B1AD-8E90477E2198};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{820D7026-0EB7-43BB-A8CD-390DF9941C09}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Xamillionaire.iOS.WatchKitExtension</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Xamillionaire.iOS.WatchKitExtension</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer: James Williams (NSA42M96G4)</CodesignKey>
+    <MtouchProfiling>true</MtouchProfiling>
+    <CodesignProvision>d54b7404-39aa-492d-a3a0-a1837596586b</CodesignProvision>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchFloat32>true</MtouchFloat32>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <IOSDebuggerPort>10001</IOSDebuggerPort>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignKey>iPhone Developer: jameswi@datacom.co.nz (YL22EW6V3B)</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>true</MtouchProfiling>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <CodesignProvision>69321f57-946d-4a47-a897-4910e0fa499c</CodesignProvision>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchExtraArgs>--gsharedvt=true</MtouchExtraArgs>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Views\" />
+    <Folder Include="Services\" />
+    <Folder Include="Views\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Views\AlertInterfaceController.cs" />
+    <Compile Include="Views\AlertInterfaceController.designer.cs">
+      <DependentUpon>AlertInterfaceController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\WatchKitPlatformProvider.cs" />
+    <Compile Include="Views\GlanceController.cs" />
+    <Compile Include="Views\GlanceController.designer.cs">
+      <DependentUpon>GlanceController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InterfaceController.cs" />
+    <Compile Include="Views\InterfaceController.designer.cs">
+      <DependentUpon>InterfaceController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NotificationController.cs" />
+    <Compile Include="Views\NotificationController.designer.cs">
+      <DependentUpon>NotificationController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VoteInterfaceController.cs" />
+    <Compile Include="Views\VoteInterfaceController.designer.cs">
+      <DependentUpon>VoteInterfaceController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Interfaces\IVoteReceivedDelegate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="PushNotificationPayload.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.AppExtension.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Xamillionaire.Core\Xamillionaire.Core.csproj">
+      <Project>{D4914D33-CDA3-435E-9C54-3916EE40A558}</Project>
+      <Name>Xamillionaire.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xamillionaire.iOS.WatchKitApp\Xamillionaire.iOS.WatchKitApp.csproj">
+      <Project>{AEAE1F1F-8845-45C0-B285-1283980F78FA}</Project>
+      <Name>Xamillionaire.iOS.WatchKitApp</Name>
+      <IsWatchApp>True</IsWatchApp>
+    </ProjectReference>
+  </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <DotNetNamingPolicy DirectoryNamespaceAssociation="PrefixedHierarchical" ResourceNamePolicy="FileFormatDefault" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

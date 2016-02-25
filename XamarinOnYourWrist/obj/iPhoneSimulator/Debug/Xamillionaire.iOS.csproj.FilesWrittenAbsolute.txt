@@ -1,0 +1,17 @@
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/optimized/
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/bin/iPhoneSimulator/Debug/XamarinOnYourWrist.exe.mdb
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/bin/iPhoneSimulator/Debug/XamarinOnYourWrist.exe
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/XamarinOnYourWrist.exe
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/obj/iPhoneSimulator/Debug/XamarinOnYourWrist.exe.mdb
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/bin/iPhoneSimulator/Debug/Xamillionaire.Core.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/bin/iPhoneSimulator/Debug/Xamillionaire.Core.dll.mdb
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/bin/iPhoneSimulator/Debug/System.Net.Http.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/mohitsinghbaweja/Xamillionaire/XamarinOnYourWrist/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
